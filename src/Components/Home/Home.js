@@ -16,13 +16,13 @@ import {JackInTheBox, Fade} from 'react-awesome-reveal'
                     "The best moderation bot you will find! Filled with different types of automod features and more"
                 </div>
             <div className='buttons'>
-                <a href='https://discord.com/oauth2/authorize?client_id=756477427554713611&scope=bot&permissions=268758110'>
+                <a target='_blank' href='https://discord.com/oauth2/authorize?client_id=756477427554713611&scope=bot&permissions=268758110'>
 
             <Button className='btn primary' variant="contained" color="primary">
             Invite
             </Button>
                 </a>
-             <a className='link' href='/commands'>
+             <a className='alink' href='/commands'>
                <Button className='btn secondary' variant="outlined" color="primary">
             Commands
             </Button>
