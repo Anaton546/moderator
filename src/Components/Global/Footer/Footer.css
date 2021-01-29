@@ -1,0 +1,13 @@
+.footerContainer {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footerContent {
+    font-size: 1.3rem;
+    font-style: italic;
+    opacity: 0.5;
+    font-family: monospace;
+}

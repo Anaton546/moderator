@@ -1,0 +1,10 @@
+[
+    {
+        "q": "How do I set up suggestions and starboard?",
+        "a": "Simple! Just do '-config channel suggestion/starboard' in the channel you want it to send to!"
+    },
+    {
+        "q": "Where can I get support?",
+        "a": "Run the command '-discord' to get a link to the support server!"
+    }
+]

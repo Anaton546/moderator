@@ -1,0 +1,46 @@
+.navContainer{
+    height: 5vh;
+    /* width: 100%; */
+    display: flex;
+    background-color: black;
+    color: white;
+    /* padding: 0 15rem; */
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.routes {
+    display: flex;
+
+}
+.logo {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+.route {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    /* background-color: red; */
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.route:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.active {
+    color: lightgreen;
+    opacity: 0.8;
+}

@@ -1,0 +1,292 @@
+[
+     {
+        "name": "Moderation",
+        "commands": [
+            {
+                "name": "Mute",
+                "value": "-mute <user> [reason]",
+                "description": "Makes it so the member can't talk in chat or vc."
+            },
+            {
+                "name": "Unmute",
+                "value": "-unmute <user> [reason]",
+                "description": "Unmuted a previously muted user."
+            },
+            {
+                "name": "Tempmute",
+                "value": "tempmute <user> <time> [reason]",
+                "description": "Muted a user for a specific amount of time. Use s, m, h, d after number to set the time."
+            },
+            {
+                "name": "Kick",
+                "value": "-kick <user> [reason]",
+                "description": "Kicks a user from the server."
+            },
+            {
+                "name": "Ban",
+                "value": "-ban <user> [reason]",
+                "description": "Bans a user from the server."
+            },
+            {
+                "name": "Unban",
+                "value": "-unban <user>",
+                "description": "Unbans a previously banned user from the server. Can use user's name#discriminator."
+            },
+            {
+                "name": "Purge",
+                "value": "-purge <amount>",
+                "description": "Mass deletes messages."
+            },
+            {
+                "name": "Addrole",
+                "value": "-addrole <role> <user>",
+                "description": "Adds a server role to a user."
+            },
+            {
+                "name": "Removerole",
+                "value": "-removerole <role> <user>",
+                "description": "Removes a server role from a user."
+            },
+            {
+                "name": "Createmuted",
+                "value": "-createmuted",
+                "description": "Creates a server role named Muted and edits all the channel perms so the role can't chat there. Used for mute command."
+            },
+            {
+                "name": "Lock",
+                "value": "-lock",
+                "description": "Locks the current channel the command was ran in and changes everyone permission to not talk."
+            },
+            {
+                "name": "Unlock",
+                "value": "-unlock",
+                "description": "Unlocks the current channel the command was ran in and changes everyone permission to talk."
+            }
+        ]
+    },
+    {
+        "name": "Misc",
+        "commands": [
+            {
+                "name": "Say",
+                "value": "-say <text>",
+                "description": "Make the bot say something."
+            },
+            {
+                "name": "Embed",
+                "value": "-embed <text>",
+                "description": "Make the bot say something in an embed."
+            },
+            {
+                "name": "Remindme",
+                "value": "-remindme <time> <text>",
+                "description": "Make the bot ping you and remind you of something after a certain amount of time. Use s, m, h, d after number to set the time."
+            },
+            {
+                "name": "8ball",
+                "value": "-8ball <question>",
+                "description": "Ask the bot a question and he will decide your fate."
+            },
+            {
+                "name": "Members",
+                "value": "-members",
+                "description": "View the member count of the server."
+            },
+            {
+                "name": "Pp",
+                "value": "-pp <user>",
+                "description": "View how large your pp is."
+            },
+            {
+                "name": "Gstart",
+                "value": "-gstart <time> <winners> <prize>",
+                "description": "Start a giveaway. Use s, m, h, d after number to set the time."
+            },
+            {
+                "name": "Greroll",
+                "value": "-greroll <id>",
+                "description": "Reroll a previously ended giveaway. The id is the message id."
+            },
+            {
+                "name": "Avatar",
+                "value": "-avatar [user]",
+                "description": "View the avatar of a user. Will give you options for jpg, png and webp."
+            },
+            {
+                "name": "Suggestion",
+                "value": "-suggest <text>",
+                "description": "Suggest something for the server. Must have a suggestion channel set."
+            }
+        ]
+    },
+    {
+        "name": "Bot",
+        "commands": [
+            {
+                "name": "Botinfo",
+                "value": "-botinfo",
+                "description": "Check some info about the bot."
+            },
+            {
+                "name": "Ping",
+                "value": "-ping",
+                "description": "Check the bot's connection to discord."
+            },
+            {
+                "name": "Invite",
+                "value": "-invite",
+                "description": "Get a link to invite the bot to your server."
+            },
+            {
+                "name": "Discord",
+                "value": "-discord",
+                "description": "Get a link to the bot support server."
+            },
+            {
+                "name": "Changeprefix",
+                "value": "-changeprefix <prefix>",
+                "description": "Change the bot's prefix in your server."
+            },
+            {
+                "name": "Suggestion",
+                "value": "-suggest <text>",
+                "description": "Suggest something! Will only work if a suggestion channel is set."
+            },
+            {
+                "name": "Bug Report",
+                "value": "-bug <text>",
+                "description": "Report a bug. Thanks for improving the bot!"
+            },
+            {
+                "name": "Vote",
+                "value": "-vote",
+                "description": "Get links to vote for the bot."
+            },
+            {
+                "name": "Faq",
+                "value": "-faq",
+                "description": "Get Answers to the most frequently asked questions about the bot."
+            }
+        ]
+    },
+     {
+        "name": "Roleplay",
+        "commands": [
+            {
+                "name": "Kill",
+                "value": "-kill <user>",
+                "description": "Kill a user."
+            },
+            {
+                "name": "Revive",
+                "value": "-revive <user>",
+                "description": "Revive a user."
+            },
+            {
+                "name": "Hug",
+                "value": "-hug <user>",
+                "description": "Hug a user."
+            },
+            {
+                "name": "Kiss",
+                "value": "-kiss <user>",
+                "description": "Kiss a user."
+            },
+            {
+                "name": "Slap",
+                "value": "-slap <user>",
+                "description": "Slap a user."
+            },
+            {
+                "name": "Kick",
+                "value": "-superkick <user>",
+                "description": "Kick a user (not from the server)."
+            },
+            {
+                "name": "Wave",
+                "value": "-wave <user>",
+                "description": "Wave to a user."
+            }
+        ]
+    },
+     {
+        "name": "Image",
+        "commands": [
+            {
+                "name": "Dog",
+                "value": "-dog",
+                "description": "Get a random dog gif."
+            },
+            {
+                "name": "Cat",
+                "value": "-cat",
+                "description": "Get a random cat gif."
+            },
+            {
+                "name": "Panda",
+                "value": "-panda",
+                "description": "Get a random panda gif"
+            },
+            {
+                "name": "Fox",
+                "value": "-fox",
+                "description": "Get a random fox gif."
+            },
+            {
+                "name": "Gay",
+                "value": "-gay <user>",
+                "description": "Make someone's profile picture rainbow colors."
+            },
+            {
+                "name": "Glass",
+                "value": "-glass <user>",
+                "description": "Add a glass overlay to someone's profile picture."
+            },
+            {
+                "name": "Wasted",
+                "value": "-wasted <user>",
+                "description": "Add the wasted overlay from gta to someone's profile picture."
+            },
+            {
+                "name": "Comment",
+                "value": "-comment <user> <name> <text>",
+                "description": "Generate a youtube comment. The user you mention is the profile picture, name you input is the youtube channel name and text is the comment."
+            },
+            {
+                "name": "Gif",
+                "value": "-gif [text]",
+                "description": "Search for a gif on giphy. If you don't search anything it will output a random gif."
+            }
+        ]
+    },
+     {
+        "name": "Config",
+        "commands": [
+            {
+                "name": "Config",
+                "value": "-config",
+                "description": "View what your config is set to for the server."
+            },
+            {
+                "name": "Config Message",
+                "value": "-config message",
+                "description": "View configurable options for messages."
+            },
+            {
+                "name": "Config Channel",
+                "value": "-config channel",
+                "description": "View configurable options for channels."
+            },
+            {
+                "name": "Config Enable",
+                "value": "-config enable",
+                "description": "View configurable options for enabling features."
+            },
+            {
+                "name": "Config Disable",
+                "value": "-config disable",
+                "description": "View configurable options for disabling features."
+            }
+        ]
+    }
+]
