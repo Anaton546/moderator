@@ -25,7 +25,7 @@ import {JackInTheBox, Fade} from 'react-awesome-reveal'
                 <a target='_blank' href='https://discord.gg/kxvDn26'>
 
             <Button className='btn secondary' variant="outlined" color="primary">
-            Discord
+            Support
             </Button>
                 </a>
             </div>
