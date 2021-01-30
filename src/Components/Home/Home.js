@@ -22,9 +22,9 @@ import {JackInTheBox, Fade} from 'react-awesome-reveal'
             Invite
             </Button>
                 </a>
-                <a target='_blank' href='Change this to your link for the support thingy'>
+                <a target='_blank' href='https://discord.gg/kxvDn26'>
 
-            <Button className='btn secondary' variant="contained" color="primary">
+            <Button className='btn secondary' variant="outlined" color="primary">
             Support
             </Button>
                 </a>
