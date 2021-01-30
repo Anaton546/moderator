@@ -22,11 +22,12 @@ import {JackInTheBox, Fade} from 'react-awesome-reveal'
             Invite
             </Button>
                 </a>
-             <Link className='alink' to='/commands'>
-               <Button className='btn secondary' variant="outlined" color="primary">
-            Commands
+                <a target='_blank' href='Change this to your link for the support thingy'>
+
+            <Button className='btn secondary' variant="contained" color="primary">
+            Support
             </Button>
-            </Link>
+                </a>
             </div>
                 </Fade>
             </div>
