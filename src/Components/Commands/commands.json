@@ -61,6 +61,11 @@
                 "name": "Unlock",
                 "value": "-unlock",
                 "description": "Unlocks the current channel the command was ran in and changes everyone permission to talk."
+            },
+            {
+                "name": "Nuke",
+                "value": "-nuke",
+                "description": "Replaces channel with exact copy. Useful for clearing all messages in a channel."
             }
         ]
     },

@@ -13,7 +13,7 @@ import {JackInTheBox, Fade} from 'react-awesome-reveal'
                 <Fade direction='up' cascade>
 
                 <div className='quote'>
-                    "The best moderation bot you will find! Filled with different types of automod features and more"
+                    "Multipurpose Bot with All the features you need to moderate and keep the server active! Features Ranging from starboard, suggestions, moderation features and lots more!"
                 </div>
             <div className='buttons'>
                 <a target='_blank' href='https://discord.com/oauth2/authorize?client_id=756477427554713611&scope=bot&permissions=268758110'>
