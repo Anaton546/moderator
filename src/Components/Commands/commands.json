@@ -171,6 +171,11 @@
                 "name": "Faq",
                 "value": "-faq",
                 "description": "Get Answers to the most frequently asked questions about the bot."
+            },
+            {
+                "name": "Website",
+                "value": "-website",
+                "description": "Get the link to the bot's website."
             }
         ]
     },
@@ -291,6 +296,11 @@
                 "name": "Config Disable",
                 "value": "-config disable",
                 "description": "View configurable options for disabling features."
+            },
+            {
+                "name": "Config Joinrole",
+                "value": "-config joinrole",
+                "description": "View configurable options for roles that are given on member join."
             }
         ]
     }
