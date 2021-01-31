@@ -300,7 +300,7 @@
             {
                 "name": "Config Joinrole",
                 "value": "-config joinrole",
-                "description": "View configurable options for roles that are given on member join."
+                "description": "View configurable options for roles that are automatically given on member join."
             }
         ]
     }
