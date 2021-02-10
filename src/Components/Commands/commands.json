@@ -121,6 +121,16 @@
                 "name": "Suggestion",
                 "value": "-suggest <text>",
                 "description": "Suggest something for the server. Must have a suggestion channel set."
+            },
+            {
+                "name": "Accept",
+                "value": "-accept <id> <reason>",
+                "description": "Accept a suggestion that is in your selected suggestions channel."
+            },
+            {
+                "name": "Deny",
+                "value": "-deny <id> <reason>",
+                "description": "Deny a suggestion that is in your selected suggestions channel."
             }
         ]
     },
