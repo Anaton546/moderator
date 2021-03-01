@@ -288,29 +288,39 @@
                 "description": "View what your config is set to for the server."
             },
             {
-                "name": "Config Message",
+                "name": "Placeholders",
+                "value": "-placeholders",
+                "description": "View placeholders you can use in your welcome and leave messages."
+            },
+            {
+                "name": "Messages",
                 "value": "-config message",
                 "description": "View configurable options for messages."
             },
             {
-                "name": "Config Channel",
+                "name": "Channels",
                 "value": "-config channel",
                 "description": "View configurable options for channels."
             },
             {
-                "name": "Config Enable",
+                "name": "Enable",
                 "value": "-config enable",
                 "description": "View configurable options for enabling features."
             },
             {
-                "name": "Config Disable",
+                "name": "Disable",
                 "value": "-config disable",
                 "description": "View configurable options for disabling features."
             },
             {
-                "name": "Config Joinrole",
+                "name": "Joinroles",
                 "value": "-config joinrole",
                 "description": "View configurable options for roles that are automatically given on member join."
+            },
+            {
+                "name": "Custom Commands",
+                "value": "-config cc",
+                "description": "View configurable options for making custom server commands."
             }
         ]
     }
